@@ -1,0 +1,1025 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Fernande Loueke, AGH University of Technology, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\Semestr II\OSFES\404719\myProject\myProject.uvprojx
+Project File Date:  12/09/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+*** Warning: You are compiling one or more files of source type C++ and have selected 'use MicroLIB'. MicroLIB does not support C++!
+  
+Build target 'default'
+osapi/freertos/osapi_freertos.cpp(1): warning: In file included from...
+./osapi\osapi.h(17): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+osapi/freertos/osapi_freertos.cpp(1): warning: In file included from...
+./osapi\osapi.h(40): warning: In file included from...
+./osapi/freertos/osapi_thread_freertos.h(50): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(52): error: class member cannot be redeclared
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(38): note: previous definition is here
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(73): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(114): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(136): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(174): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(172): error: function definition is not allowed here
+        virtual bool isRunning() {
+                                 ^
+./osapi/freertos/osapi_thread_freertos.h(196): error: function definition is not allowed here
+        virtual bool join(unsigned int timeout) {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(212): error: function definition is not allowed here
+        virtual bool isJoinable() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(221): error: function definition is not allowed here
+        virtual bool suspend() {
+                               ^
+./osapi/freertos/osapi_thread_freertos.h(230): error: function definition is not allowed here
+        virtual bool resume() {
+                              ^
+./osapi/freertos/osapi_thread_freertos.h(240): error: function definition is not allowed here
+        virtual bool setPriority(int priority) {
+                                               ^
+./osapi/freertos/osapi_thread_freertos.h(248): error: function definition is not allowed here
+        virtual int getPriority() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(257): error: function definition is not allowed here
+        virtual const char* getName() {
+                                      ^
+./osapi/freertos/osapi_thread_freertos.h(266): error: function definition is not allowed here
+        virtual ThreadState getState() {
+                                       ^
+./osapi/freertos/osapi_thread_freertos.h(273): error: function definition is not allowed here
+        virtual unsigned int getTotalStackSize() {
+                                                 ^
+./osapi/freertos/osapi_thread_freertos.h(280): error: function definition is not allowed here
+        virtual unsigned int getUsedStackSize() {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(284): error: expected expression
+    protected:
+    ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling osapi_freertos.cpp...
+application/main.cpp(2): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+1 error generated.
+compiling main.cpp...
+test_cunit.cpp(4): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+1 error generated.
+compiling test_cunit.cpp...
+osapi_test/test_03_thread_suspend_resume.cpp(2): warning: In file included from...
+./osapi\osapi.h(17): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+osapi_test/test_03_thread_suspend_resume.cpp(2): warning: In file included from...
+./osapi\osapi.h(40): warning: In file included from...
+./osapi/freertos/osapi_thread_freertos.h(50): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(52): error: class member cannot be redeclared
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(38): note: previous definition is here
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(73): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(114): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(136): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(174): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(172): error: function definition is not allowed here
+        virtual bool isRunning() {
+                                 ^
+./osapi/freertos/osapi_thread_freertos.h(196): error: function definition is not allowed here
+        virtual bool join(unsigned int timeout) {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(212): error: function definition is not allowed here
+        virtual bool isJoinable() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(221): error: function definition is not allowed here
+        virtual bool suspend() {
+                               ^
+./osapi/freertos/osapi_thread_freertos.h(230): error: function definition is not allowed here
+        virtual bool resume() {
+                              ^
+./osapi/freertos/osapi_thread_freertos.h(240): error: function definition is not allowed here
+        virtual bool setPriority(int priority) {
+                                               ^
+./osapi/freertos/osapi_thread_freertos.h(248): error: function definition is not allowed here
+        virtual int getPriority() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(257): error: function definition is not allowed here
+        virtual const char* getName() {
+                                      ^
+./osapi/freertos/osapi_thread_freertos.h(266): error: function definition is not allowed here
+        virtual ThreadState getState() {
+                                       ^
+./osapi/freertos/osapi_thread_freertos.h(273): error: function definition is not allowed here
+        virtual unsigned int getTotalStackSize() {
+                                                 ^
+./osapi/freertos/osapi_thread_freertos.h(280): error: function definition is not allowed here
+        virtual unsigned int getUsedStackSize() {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(284): error: expected expression
+    protected:
+    ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling test_03_thread_suspend_resume.cpp...
+osapi_test/test_01_thread_creation.cpp(2): warning: In file included from...
+./osapi\osapi.h(17): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+osapi_test/test_01_thread_creation.cpp(2): warning: In file included from...
+./osapi\osapi.h(40): warning: In file included from...
+./osapi/freertos/osapi_thread_freertos.h(50): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(52): error: class member cannot be redeclared
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(38): note: previous definition is here
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(73): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(114): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(136): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(174): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(172): error: function definition is not allowed here
+        virtual bool isRunning() {
+                                 ^
+./osapi/freertos/osapi_thread_freertos.h(196): error: function definition is not allowed here
+        virtual bool join(unsigned int timeout) {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(212): error: function definition is not allowed here
+        virtual bool isJoinable() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(221): error: function definition is not allowed here
+        virtual bool suspend() {
+                               ^
+./osapi/freertos/osapi_thread_freertos.h(230): error: function definition is not allowed here
+        virtual bool resume() {
+                              ^
+./osapi/freertos/osapi_thread_freertos.h(240): error: function definition is not allowed here
+        virtual bool setPriority(int priority) {
+                                               ^
+./osapi/freertos/osapi_thread_freertos.h(248): error: function definition is not allowed here
+        virtual int getPriority() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(257): error: function definition is not allowed here
+        virtual const char* getName() {
+                                      ^
+./osapi/freertos/osapi_thread_freertos.h(266): error: function definition is not allowed here
+        virtual ThreadState getState() {
+                                       ^
+./osapi/freertos/osapi_thread_freertos.h(273): error: function definition is not allowed here
+        virtual unsigned int getTotalStackSize() {
+                                                 ^
+./osapi/freertos/osapi_thread_freertos.h(280): error: function definition is not allowed here
+        virtual unsigned int getUsedStackSize() {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(284): error: expected expression
+    protected:
+    ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling test_01_thread_creation.cpp...
+osapi_test/test_00_thread_name.cpp(2): warning: In file included from...
+./osapi\osapi.h(17): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+osapi_test/test_00_thread_name.cpp(2): warning: In file included from...
+./osapi\osapi.h(40): warning: In file included from...
+./osapi/freertos/osapi_thread_freertos.h(50): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(52): error: class member cannot be redeclared
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(38): note: previous definition is here
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(73): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(114): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(136): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(174): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(172): error: function definition is not allowed here
+        virtual bool isRunning() {
+                                 ^
+./osapi/freertos/osapi_thread_freertos.h(196): error: function definition is not allowed here
+        virtual bool join(unsigned int timeout) {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(212): error: function definition is not allowed here
+        virtual bool isJoinable() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(221): error: function definition is not allowed here
+        virtual bool suspend() {
+                               ^
+./osapi/freertos/osapi_thread_freertos.h(230): error: function definition is not allowed here
+        virtual bool resume() {
+                              ^
+./osapi/freertos/osapi_thread_freertos.h(240): error: function definition is not allowed here
+        virtual bool setPriority(int priority) {
+                                               ^
+./osapi/freertos/osapi_thread_freertos.h(248): error: function definition is not allowed here
+        virtual int getPriority() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(257): error: function definition is not allowed here
+        virtual const char* getName() {
+                                      ^
+./osapi/freertos/osapi_thread_freertos.h(266): error: function definition is not allowed here
+        virtual ThreadState getState() {
+                                       ^
+./osapi/freertos/osapi_thread_freertos.h(273): error: function definition is not allowed here
+        virtual unsigned int getTotalStackSize() {
+                                                 ^
+./osapi/freertos/osapi_thread_freertos.h(280): error: function definition is not allowed here
+        virtual unsigned int getUsedStackSize() {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(284): error: expected expression
+    protected:
+    ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling test_00_thread_name.cpp...
+osapi_test/test_02_thread_join.cpp(2): warning: In file included from...
+./osapi\osapi.h(17): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+osapi_test/test_02_thread_join.cpp(2): warning: In file included from...
+./osapi\osapi.h(40): warning: In file included from...
+./osapi/freertos/osapi_thread_freertos.h(50): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(52): error: class member cannot be redeclared
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(38): note: previous definition is here
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(73): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(114): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(136): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(174): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(172): error: function definition is not allowed here
+        virtual bool isRunning() {
+                                 ^
+./osapi/freertos/osapi_thread_freertos.h(196): error: function definition is not allowed here
+        virtual bool join(unsigned int timeout) {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(212): error: function definition is not allowed here
+        virtual bool isJoinable() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(221): error: function definition is not allowed here
+        virtual bool suspend() {
+                               ^
+./osapi/freertos/osapi_thread_freertos.h(230): error: function definition is not allowed here
+        virtual bool resume() {
+                              ^
+./osapi/freertos/osapi_thread_freertos.h(240): error: function definition is not allowed here
+        virtual bool setPriority(int priority) {
+                                               ^
+./osapi/freertos/osapi_thread_freertos.h(248): error: function definition is not allowed here
+        virtual int getPriority() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(257): error: function definition is not allowed here
+        virtual const char* getName() {
+                                      ^
+./osapi/freertos/osapi_thread_freertos.h(266): error: function definition is not allowed here
+        virtual ThreadState getState() {
+                                       ^
+./osapi/freertos/osapi_thread_freertos.h(273): error: function definition is not allowed here
+        virtual unsigned int getTotalStackSize() {
+                                                 ^
+./osapi/freertos/osapi_thread_freertos.h(280): error: function definition is not allowed here
+        virtual unsigned int getUsedStackSize() {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(284): error: expected expression
+    protected:
+    ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling test_02_thread_join.cpp...
+osapi_test/test_04_thread_delay.cpp(2): warning: In file included from...
+./osapi\osapi.h(17): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+osapi_test/test_04_thread_delay.cpp(2): warning: In file included from...
+./osapi\osapi.h(40): warning: In file included from...
+./osapi/freertos/osapi_thread_freertos.h(50): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(52): error: class member cannot be redeclared
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(38): note: previous definition is here
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(73): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(114): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(136): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(174): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(172): error: function definition is not allowed here
+        virtual bool isRunning() {
+                                 ^
+./osapi/freertos/osapi_thread_freertos.h(196): error: function definition is not allowed here
+        virtual bool join(unsigned int timeout) {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(212): error: function definition is not allowed here
+        virtual bool isJoinable() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(221): error: function definition is not allowed here
+        virtual bool suspend() {
+                               ^
+./osapi/freertos/osapi_thread_freertos.h(230): error: function definition is not allowed here
+        virtual bool resume() {
+                              ^
+./osapi/freertos/osapi_thread_freertos.h(240): error: function definition is not allowed here
+        virtual bool setPriority(int priority) {
+                                               ^
+./osapi/freertos/osapi_thread_freertos.h(248): error: function definition is not allowed here
+        virtual int getPriority() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(257): error: function definition is not allowed here
+        virtual const char* getName() {
+                                      ^
+./osapi/freertos/osapi_thread_freertos.h(266): error: function definition is not allowed here
+        virtual ThreadState getState() {
+                                       ^
+./osapi/freertos/osapi_thread_freertos.h(273): error: function definition is not allowed here
+        virtual unsigned int getTotalStackSize() {
+                                                 ^
+./osapi/freertos/osapi_thread_freertos.h(280): error: function definition is not allowed here
+        virtual unsigned int getUsedStackSize() {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(284): error: expected expression
+    protected:
+    ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling test_04_thread_delay.cpp...
+osapi_test/test_05_thread_priority.cpp(2): warning: In file included from...
+./osapi\osapi.h(17): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+osapi_test/test_05_thread_priority.cpp(2): warning: In file included from...
+./osapi\osapi.h(40): warning: In file included from...
+./osapi/freertos/osapi_thread_freertos.h(50): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(52): error: class member cannot be redeclared
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(38): note: previous definition is here
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(73): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(114): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(136): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(174): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(172): error: function definition is not allowed here
+        virtual bool isRunning() {
+                                 ^
+./osapi/freertos/osapi_thread_freertos.h(196): error: function definition is not allowed here
+        virtual bool join(unsigned int timeout) {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(212): error: function definition is not allowed here
+        virtual bool isJoinable() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(221): error: function definition is not allowed here
+        virtual bool suspend() {
+                               ^
+./osapi/freertos/osapi_thread_freertos.h(230): error: function definition is not allowed here
+        virtual bool resume() {
+                              ^
+./osapi/freertos/osapi_thread_freertos.h(240): error: function definition is not allowed here
+        virtual bool setPriority(int priority) {
+                                               ^
+./osapi/freertos/osapi_thread_freertos.h(248): error: function definition is not allowed here
+        virtual int getPriority() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(257): error: function definition is not allowed here
+        virtual const char* getName() {
+                                      ^
+./osapi/freertos/osapi_thread_freertos.h(266): error: function definition is not allowed here
+        virtual ThreadState getState() {
+                                       ^
+./osapi/freertos/osapi_thread_freertos.h(273): error: function definition is not allowed here
+        virtual unsigned int getTotalStackSize() {
+                                                 ^
+./osapi/freertos/osapi_thread_freertos.h(280): error: function definition is not allowed here
+        virtual unsigned int getUsedStackSize() {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(284): error: expected expression
+    protected:
+    ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling test_05_thread_priority.cpp...
+osapi_test/test_06_thread_priority_change.cpp(2): warning: In file included from...
+./osapi\osapi.h(17): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+osapi_test/test_06_thread_priority_change.cpp(2): warning: In file included from...
+./osapi\osapi.h(40): warning: In file included from...
+./osapi/freertos/osapi_thread_freertos.h(50): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(52): error: class member cannot be redeclared
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(38): note: previous definition is here
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(73): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(114): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(136): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(174): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(172): error: function definition is not allowed here
+        virtual bool isRunning() {
+                                 ^
+./osapi/freertos/osapi_thread_freertos.h(196): error: function definition is not allowed here
+        virtual bool join(unsigned int timeout) {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(212): error: function definition is not allowed here
+        virtual bool isJoinable() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(221): error: function definition is not allowed here
+        virtual bool suspend() {
+                               ^
+./osapi/freertos/osapi_thread_freertos.h(230): error: function definition is not allowed here
+        virtual bool resume() {
+                              ^
+./osapi/freertos/osapi_thread_freertos.h(240): error: function definition is not allowed here
+        virtual bool setPriority(int priority) {
+                                               ^
+./osapi/freertos/osapi_thread_freertos.h(248): error: function definition is not allowed here
+        virtual int getPriority() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(257): error: function definition is not allowed here
+        virtual const char* getName() {
+                                      ^
+./osapi/freertos/osapi_thread_freertos.h(266): error: function definition is not allowed here
+        virtual ThreadState getState() {
+                                       ^
+./osapi/freertos/osapi_thread_freertos.h(273): error: function definition is not allowed here
+        virtual unsigned int getTotalStackSize() {
+                                                 ^
+./osapi/freertos/osapi_thread_freertos.h(280): error: function definition is not allowed here
+        virtual unsigned int getUsedStackSize() {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(284): error: expected expression
+    protected:
+    ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling test_06_thread_priority_change.cpp...
+osapi_test/test_07_thread_run_detailed.cpp(2): warning: In file included from...
+./osapi\osapi.h(17): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+osapi_test/test_07_thread_run_detailed.cpp(2): warning: In file included from...
+./osapi\osapi.h(40): warning: In file included from...
+./osapi/freertos/osapi_thread_freertos.h(50): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(52): error: class member cannot be redeclared
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(38): note: previous definition is here
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(73): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(114): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(136): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(174): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(172): error: function definition is not allowed here
+        virtual bool isRunning() {
+                                 ^
+./osapi/freertos/osapi_thread_freertos.h(196): error: function definition is not allowed here
+        virtual bool join(unsigned int timeout) {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(212): error: function definition is not allowed here
+        virtual bool isJoinable() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(221): error: function definition is not allowed here
+        virtual bool suspend() {
+                               ^
+./osapi/freertos/osapi_thread_freertos.h(230): error: function definition is not allowed here
+        virtual bool resume() {
+                              ^
+./osapi/freertos/osapi_thread_freertos.h(240): error: function definition is not allowed here
+        virtual bool setPriority(int priority) {
+                                               ^
+./osapi/freertos/osapi_thread_freertos.h(248): error: function definition is not allowed here
+        virtual int getPriority() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(257): error: function definition is not allowed here
+        virtual const char* getName() {
+                                      ^
+./osapi/freertos/osapi_thread_freertos.h(266): error: function definition is not allowed here
+        virtual ThreadState getState() {
+                                       ^
+./osapi/freertos/osapi_thread_freertos.h(273): error: function definition is not allowed here
+        virtual unsigned int getTotalStackSize() {
+                                                 ^
+./osapi/freertos/osapi_thread_freertos.h(280): error: function definition is not allowed here
+        virtual unsigned int getUsedStackSize() {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(284): error: expected expression
+    protected:
+    ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling test_07_thread_run_detailed.cpp...
+osapi_test/test_08_thread_state.cpp(2): warning: In file included from...
+./osapi\osapi.h(17): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+osapi_test/test_08_thread_state.cpp(2): warning: In file included from...
+./osapi\osapi.h(40): warning: In file included from...
+./osapi/freertos/osapi_thread_freertos.h(50): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(52): error: class member cannot be redeclared
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(38): note: previous definition is here
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(73): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(114): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(136): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(174): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(172): error: function definition is not allowed here
+        virtual bool isRunning() {
+                                 ^
+./osapi/freertos/osapi_thread_freertos.h(196): error: function definition is not allowed here
+        virtual bool join(unsigned int timeout) {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(212): error: function definition is not allowed here
+        virtual bool isJoinable() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(221): error: function definition is not allowed here
+        virtual bool suspend() {
+                               ^
+./osapi/freertos/osapi_thread_freertos.h(230): error: function definition is not allowed here
+        virtual bool resume() {
+                              ^
+./osapi/freertos/osapi_thread_freertos.h(240): error: function definition is not allowed here
+        virtual bool setPriority(int priority) {
+                                               ^
+./osapi/freertos/osapi_thread_freertos.h(248): error: function definition is not allowed here
+        virtual int getPriority() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(257): error: function definition is not allowed here
+        virtual const char* getName() {
+                                      ^
+./osapi/freertos/osapi_thread_freertos.h(266): error: function definition is not allowed here
+        virtual ThreadState getState() {
+                                       ^
+./osapi/freertos/osapi_thread_freertos.h(273): error: function definition is not allowed here
+        virtual unsigned int getTotalStackSize() {
+                                                 ^
+./osapi/freertos/osapi_thread_freertos.h(280): error: function definition is not allowed here
+        virtual unsigned int getUsedStackSize() {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(284): error: expected expression
+    protected:
+    ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling test_08_thread_state.cpp...
+osapi_test/test_09_thread_suspend_inactive.cpp(2): warning: In file included from...
+./osapi\osapi.h(17): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+osapi_test/test_09_thread_suspend_inactive.cpp(2): warning: In file included from...
+./osapi\osapi.h(40): warning: In file included from...
+./osapi/freertos/osapi_thread_freertos.h(50): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(52): error: class member cannot be redeclared
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(38): note: previous definition is here
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(73): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(114): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(136): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(174): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(172): error: function definition is not allowed here
+        virtual bool isRunning() {
+                                 ^
+./osapi/freertos/osapi_thread_freertos.h(196): error: function definition is not allowed here
+        virtual bool join(unsigned int timeout) {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(212): error: function definition is not allowed here
+        virtual bool isJoinable() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(221): error: function definition is not allowed here
+        virtual bool suspend() {
+                               ^
+./osapi/freertos/osapi_thread_freertos.h(230): error: function definition is not allowed here
+        virtual bool resume() {
+                              ^
+./osapi/freertos/osapi_thread_freertos.h(240): error: function definition is not allowed here
+        virtual bool setPriority(int priority) {
+                                               ^
+./osapi/freertos/osapi_thread_freertos.h(248): error: function definition is not allowed here
+        virtual int getPriority() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(257): error: function definition is not allowed here
+        virtual const char* getName() {
+                                      ^
+./osapi/freertos/osapi_thread_freertos.h(266): error: function definition is not allowed here
+        virtual ThreadState getState() {
+                                       ^
+./osapi/freertos/osapi_thread_freertos.h(273): error: function definition is not allowed here
+        virtual unsigned int getTotalStackSize() {
+                                                 ^
+./osapi/freertos/osapi_thread_freertos.h(280): error: function definition is not allowed here
+        virtual unsigned int getUsedStackSize() {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(284): error: expected expression
+    protected:
+    ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling test_09_thread_suspend_inactive.cpp...
+osapi_test/test_10_thread_stack_size.cpp(2): warning: In file included from...
+./osapi\osapi.h(17): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+osapi_test/test_10_thread_stack_size.cpp(2): warning: In file included from...
+./osapi\osapi.h(40): warning: In file included from...
+./osapi/freertos/osapi_thread_freertos.h(50): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(52): error: class member cannot be redeclared
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(38): note: previous definition is here
+                static void threadFunction(void* argument){
+                            ^
+./osapi/freertos/osapi_thread_freertos.h(73): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(114): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(136): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(174): error: version control conflict marker in file
+<<<<<<< .mine
+^
+./osapi/freertos/osapi_thread_freertos.h(172): error: function definition is not allowed here
+        virtual bool isRunning() {
+                                 ^
+./osapi/freertos/osapi_thread_freertos.h(196): error: function definition is not allowed here
+        virtual bool join(unsigned int timeout) {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(212): error: function definition is not allowed here
+        virtual bool isJoinable() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(221): error: function definition is not allowed here
+        virtual bool suspend() {
+                               ^
+./osapi/freertos/osapi_thread_freertos.h(230): error: function definition is not allowed here
+        virtual bool resume() {
+                              ^
+./osapi/freertos/osapi_thread_freertos.h(240): error: function definition is not allowed here
+        virtual bool setPriority(int priority) {
+                                               ^
+./osapi/freertos/osapi_thread_freertos.h(248): error: function definition is not allowed here
+        virtual int getPriority() {
+                                  ^
+./osapi/freertos/osapi_thread_freertos.h(257): error: function definition is not allowed here
+        virtual const char* getName() {
+                                      ^
+./osapi/freertos/osapi_thread_freertos.h(266): error: function definition is not allowed here
+        virtual ThreadState getState() {
+                                       ^
+./osapi/freertos/osapi_thread_freertos.h(273): error: function definition is not allowed here
+        virtual unsigned int getTotalStackSize() {
+                                                 ^
+./osapi/freertos/osapi_thread_freertos.h(280): error: function definition is not allowed here
+        virtual unsigned int getUsedStackSize() {
+                                                ^
+./osapi/freertos/osapi_thread_freertos.h(284): error: expected expression
+    protected:
+    ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+20 errors generated.
+compiling test_10_thread_stack_size.cpp...
+osapi_test/test_osapi.cpp(1): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+1 error generated.
+compiling test_osapi.cpp...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Source/freertos_evr.c(23): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+1 error generated.
+compiling freertos_evr.c...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/event_groups.c(38): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+1 error generated.
+compiling event_groups.c...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/list.c(37): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+1 error generated.
+compiling list.c...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F/port.c(34): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+1 error generated.
+compiling port.c...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/MemMang/heap_4.c(44): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+1 error generated.
+compiling heap_4.c...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/queue.c(37): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+1 error generated.
+compiling queue.c...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/tasks.c(39): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+1 error generated.
+compiling tasks.c...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/timers.c(37): warning: In file included from...
+C:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include\FreeRTOS.h(108): error: Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+    #error Missing definition:  configUSE_16_BIT_TICKS must be defined in FreeRTOSConfig.h as either 1 or 0.  See the Configuration section of the FreeRTOS API documentation for details.
+     ^
+1 error generated.
+compiling timers.c...
+".\Objects\myProject.axf" - 239 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM.CMSIS.6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS-FreeRTOS.10.4.6.pack
+                ARM.CMSIS-FreeRTOS.10.4.6
+                Bundle of FreeRTOS for Cortex-M and Cortex-A
+   * Component: Config Variant: FreeRTOS Version: 10.4.6
+   * Component: Core Variant: Cortex-M Version: 10.4.6
+   * Component: Event Groups Version: 10.4.6
+   * Component: Heap Variant: Heap_4 Version: 10.4.6
+   * Component: Timers Version: 10.4.6
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.6.3.pack
+                Keil.ARM_Compiler.1.6.3
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: STDOUT Variant: ITM Version: 1.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.16.0.pack
+                Keil.STM32F4xx_DFP.2.16.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: STM32Cube Framework Version: 1.0.0
+   * Component: Classic Version: 1.7.13
+   * Component: Common Version: 1.7.13
+   * Component: Cortex Version: 1.7.13
+   * Component: GPIO Version: 1.7.13
+   * Component: PWR Version: 1.7.13
+   * Component: RCC Version: 1.7.13
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\Device\STM32F429ZITx
+  .\RTE\RTOS
+  .\RTE\_default
+  C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Include
+  C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include
+  C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F
+  C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include
+  C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+  C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::Device:STM32Cube Framework:1.0.0 (API)
+
+   * Component: ARM.FreeRTOS::RTOS:Config:FreeRTOS:10.4.6
+      Include file:  Config\ARMCM\FreeRTOSConfig.h
+
+   * Component: ARM.FreeRTOS::RTOS:Core:Cortex-M:10.4.6
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c
+      Source file:   Source\tasks.c
+      Source file:   Source\list.c
+      Include file:  Source\include\queue.h
+      Include file:  Source\include\FreeRTOS.h
+      Include file:  Source\include\semphr.h
+      Include file:  Source\include\task.h
+      Source file:   Source\queue.c
+      Source file:   Source\portable\GCC\ARM_CM4F\port.c
+
+   * Component: ARM.FreeRTOS::RTOS:Event Groups:10.4.6
+      Include file:  Source\include\event_groups.h
+      Source file:   Source\event_groups.c
+
+   * Component: ARM.FreeRTOS::RTOS:Heap:Heap_4:10.4.6
+      Source file:   Source\portable\MemMang\heap_4.c
+
+   * Component: ARM.FreeRTOS::RTOS:Timers:10.4.6
+      Include file:  Source\include\timers.h
+      Source file:   Source\timers.c
+
+   * Component: ARM::CMSIS:CORE:6.1.0
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:ITM:1.2.0
+      Source file:   Source\retarget_io.c
+
+   * Component: Keil::Device:STM32Cube Framework:Classic:1.7.13
+      Source file:   MDK\Templates\Src\main.c
+      Include file:  MDK\Templates_LL\Inc\main.h
+      Source file:   MDK\Templates_LL\Src\main.c
+      Include file:  CMSIS\Driver\Config\RTE_Device.h
+      Include file:  MDK\Templates\Inc\stm32f4xx_hal_conf.h
+      Source file:   MDK\Templates\Src\stm32f4xx_it.c
+      Include file:  MDK\Templates\Inc\stm32f4xx_it.h
+      Source file:   MDK\Templates\Src\stm32f4xx_hal_msp.c
+      Include file:  MDK\Templates\Inc\main.h
+
+   * Component: Keil::Device:STM32Cube HAL:Common:1.7.13
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+      Include file:  Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h
+
+   * Component: Keil::Device:STM32Cube HAL:Cortex:1.7.13
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+
+   * Component: Keil::Device:STM32Cube HAL:GPIO:1.7.13
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+
+   * Component: Keil::Device:STM32Cube HAL:PWR:1.7.13
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+
+   * Component: Keil::Device:STM32Cube HAL:RCC:1.7.13
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+      Source file:   Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+
+   * Component: Keil::Device:Startup:2.6.3
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f429xx.s
+      Source file:   MDK\Device\Source\ARM\STM32F42xxx_43xxx_OPT.s
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+Target not created.
+Build Time Elapsed:  00:00:11
+</pre>
+</body>
+</html>

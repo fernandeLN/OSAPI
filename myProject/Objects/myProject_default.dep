@@ -1,0 +1,1119 @@
+Dependencies for Project 'myProject', Target 'default': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\application\main.cpp)(0x67531BC4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/main.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstdio)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (osapi_test\test_osapi.h)(0x67531BC4)
+F (.\test_cunit.cpp)(0x67531BC4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/test_cunit.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstdio)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\math.h)(0x60355C32)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdlib.h)(0x60355C28)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\type_traits)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstddef)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\version)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__undef_macros)(0x602A8FD0)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\errno.h)(0x602A8FD6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\setjmp.h)(0x602A8FD8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (cunit\Headers\Basic.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+F (.\cunit\Sources\Basic\Basic.c)(0x67531BC4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/basic.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\ctype.h)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (cunit\Headers\Util.h)(0x67531BC4)
+I (cunit\Headers\Basic.h)(0x67531BC4)
+I (cunit\Headers\CUnit_intl.h)(0x67531BC4)
+F (.\cunit\Sources\Framework\CUError.c)(0x67531BC4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/cuerror.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (cunit\Headers\CUnit_intl.h)(0x67531BC4)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+F (.\cunit\Sources\Framework\MyMem.c)(0x67531BC4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/mymem.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\ctype.h)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x60355C30)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (cunit\Headers\MyMem.h)(0x67531BC4)
+I (cunit\Headers\CUnit_intl.h)(0x67531BC4)
+F (.\cunit\Sources\Framework\TestDB.c)(0x67531BC4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/testdb.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdarg.h)(0x60355C34)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (cunit\Headers\MyMem.h)(0x67531BC4)
+I (cunit\Headers\Util.h)(0x67531BC4)
+I (cunit\Headers\CUnit_intl.h)(0x67531BC4)
+F (.\cunit\Sources\Framework\TestRun.c)(0x67531BC4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/testrun.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\time.h)(0x60355C30)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (cunit\Headers\MyMem.h)(0x67531BC4)
+I (cunit\Headers\Util.h)(0x67531BC4)
+I (cunit\Headers\CUnit_intl.h)(0x67531BC4)
+F (.\cunit\Sources\Framework\Util.c)(0x67531BC4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/util.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\ctype.h)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (cunit\Headers\Util.h)(0x67531BC4)
+F (.\osapi\osapi_mutex_interface.h)(0x67531BC4)()
+F (.\osapi\osapi_thread_interface.h)(0x67531BC4)()
+F (.\osapi\osapi.h)(0x67531BC4)()
+F (.\osapi\freertos\osapi_freertos.cpp)(0x67531BC4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/osapi_freertos.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (osapi\osapi.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\csignal)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\signal.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstring)(0x602A8FCA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182E63C)
+I (osapi\osapi_mutex_interface.h)(0x67531BC4)
+I (osapi\osapi_thread_interface.h)(0x67531BC4)
+I (osapi\freertos\osapi_thread_freertos.h)(0x675F4D24)
+F (.\osapi\freertos\osapi_thread_freertos.h)(0x675F4D24)()
+F (.\osapi_test\test_00_thread_name.cpp)(0x67531BC4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/test_00_thread_name.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\math.h)(0x60355C32)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdlib.h)(0x60355C28)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\type_traits)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstddef)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\version)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__undef_macros)(0x602A8FD0)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\errno.h)(0x602A8FD6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\setjmp.h)(0x602A8FD8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (osapi\osapi.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\csignal)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\signal.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstring)(0x602A8FCA)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182E63C)
+I (osapi\osapi_mutex_interface.h)(0x67531BC4)
+I (osapi\osapi_thread_interface.h)(0x67531BC4)
+I (osapi\freertos\osapi_thread_freertos.h)(0x675F4D24)
+F (.\osapi_test\test_01_thread_creation.cpp)(0x67531BC4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/test_01_thread_creation.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\math.h)(0x60355C32)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdlib.h)(0x60355C28)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\type_traits)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstddef)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\version)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__undef_macros)(0x602A8FD0)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\errno.h)(0x602A8FD6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\setjmp.h)(0x602A8FD8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (osapi\osapi.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\csignal)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\signal.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstring)(0x602A8FCA)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182E63C)
+I (osapi\osapi_mutex_interface.h)(0x67531BC4)
+I (osapi\osapi_thread_interface.h)(0x67531BC4)
+I (osapi\freertos\osapi_thread_freertos.h)(0x675F4D24)
+F (.\osapi_test\test_02_thread_join.cpp)(0x67531BC4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/test_02_thread_join.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\math.h)(0x60355C32)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdlib.h)(0x60355C28)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\type_traits)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstddef)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\version)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__undef_macros)(0x602A8FD0)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\errno.h)(0x602A8FD6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\setjmp.h)(0x602A8FD8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (osapi\osapi.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\csignal)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\signal.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstring)(0x602A8FCA)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182E63C)
+I (osapi\osapi_mutex_interface.h)(0x67531BC4)
+I (osapi\osapi_thread_interface.h)(0x67531BC4)
+I (osapi\freertos\osapi_thread_freertos.h)(0x675F4D24)
+F (.\osapi_test\test_03_thread_suspend_resume.cpp)(0x67531BC4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/test_03_thread_suspend_resume.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\math.h)(0x60355C32)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdlib.h)(0x60355C28)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\type_traits)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstddef)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\version)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__undef_macros)(0x602A8FD0)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\errno.h)(0x602A8FD6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\setjmp.h)(0x602A8FD8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (osapi\osapi.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\csignal)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\signal.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstring)(0x602A8FCA)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182E63C)
+I (osapi\osapi_mutex_interface.h)(0x67531BC4)
+I (osapi\osapi_thread_interface.h)(0x67531BC4)
+I (osapi\freertos\osapi_thread_freertos.h)(0x675F4D24)
+F (.\osapi_test\test_04_thread_delay.cpp)(0x67531BC4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/test_04_thread_delay.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\math.h)(0x60355C32)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdlib.h)(0x60355C28)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\type_traits)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstddef)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\version)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__undef_macros)(0x602A8FD0)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\errno.h)(0x602A8FD6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\setjmp.h)(0x602A8FD8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (osapi\osapi.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\csignal)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\signal.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstring)(0x602A8FCA)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182E63C)
+I (osapi\osapi_mutex_interface.h)(0x67531BC4)
+I (osapi\osapi_thread_interface.h)(0x67531BC4)
+I (osapi\freertos\osapi_thread_freertos.h)(0x675F4D24)
+F (.\osapi_test\test_05_thread_priority.cpp)(0x67531BC4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/test_05_thread_priority.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\math.h)(0x60355C32)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdlib.h)(0x60355C28)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\type_traits)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstddef)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\version)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__undef_macros)(0x602A8FD0)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\errno.h)(0x602A8FD6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\setjmp.h)(0x602A8FD8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (osapi\osapi.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\csignal)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\signal.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstring)(0x602A8FCA)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182E63C)
+I (osapi\osapi_mutex_interface.h)(0x67531BC4)
+I (osapi\osapi_thread_interface.h)(0x67531BC4)
+I (osapi\freertos\osapi_thread_freertos.h)(0x675F4D24)
+F (.\osapi_test\test_06_thread_priority_change.cpp)(0x67531BC4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/test_06_thread_priority_change.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\math.h)(0x60355C32)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdlib.h)(0x60355C28)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\type_traits)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstddef)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\version)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__undef_macros)(0x602A8FD0)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\errno.h)(0x602A8FD6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\setjmp.h)(0x602A8FD8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (osapi\osapi.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\csignal)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\signal.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstring)(0x602A8FCA)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182E63C)
+I (osapi\osapi_mutex_interface.h)(0x67531BC4)
+I (osapi\osapi_thread_interface.h)(0x67531BC4)
+I (osapi\freertos\osapi_thread_freertos.h)(0x675F4D24)
+F (.\osapi_test\test_07_thread_run_detailed.cpp)(0x67531BC4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/test_07_thread_run_detailed.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\math.h)(0x60355C32)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdlib.h)(0x60355C28)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\type_traits)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstddef)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\version)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__undef_macros)(0x602A8FD0)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\errno.h)(0x602A8FD6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\setjmp.h)(0x602A8FD8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (osapi\osapi.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\csignal)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\signal.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstring)(0x602A8FCA)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182E63C)
+I (osapi\osapi_mutex_interface.h)(0x67531BC4)
+I (osapi\osapi_thread_interface.h)(0x67531BC4)
+I (osapi\freertos\osapi_thread_freertos.h)(0x675F4D24)
+F (.\osapi_test\test_08_thread_state.cpp)(0x67531BC4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/test_08_thread_state.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\math.h)(0x60355C32)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdlib.h)(0x60355C28)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\type_traits)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstddef)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\version)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__undef_macros)(0x602A8FD0)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\errno.h)(0x602A8FD6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\setjmp.h)(0x602A8FD8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (osapi\osapi.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\csignal)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\signal.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstring)(0x602A8FCA)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182E63C)
+I (osapi\osapi_mutex_interface.h)(0x67531BC4)
+I (osapi\osapi_thread_interface.h)(0x67531BC4)
+I (osapi\freertos\osapi_thread_freertos.h)(0x675F4D24)
+F (.\osapi_test\test_09_thread_suspend_inactive.cpp)(0x67531BC4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/test_09_thread_suspend_inactive.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\math.h)(0x60355C32)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdlib.h)(0x60355C28)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\type_traits)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstddef)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\version)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__undef_macros)(0x602A8FD0)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\errno.h)(0x602A8FD6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\setjmp.h)(0x602A8FD8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (osapi\osapi.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\csignal)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\signal.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstring)(0x602A8FCA)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182E63C)
+I (osapi\osapi_mutex_interface.h)(0x67531BC4)
+I (osapi\osapi_thread_interface.h)(0x67531BC4)
+I (osapi\freertos\osapi_thread_freertos.h)(0x675F4D24)
+F (.\osapi_test\test_10_thread_stack_size.cpp)(0x67531BC4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/test_10_thread_stack_size.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\math.h)(0x60355C32)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdlib.h)(0x60355C28)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\type_traits)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstddef)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\version)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__undef_macros)(0x602A8FD0)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\errno.h)(0x602A8FD6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\setjmp.h)(0x602A8FD8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (osapi\osapi.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\csignal)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\signal.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstring)(0x602A8FCA)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182E63C)
+I (osapi\osapi_mutex_interface.h)(0x67531BC4)
+I (osapi\osapi_thread_interface.h)(0x67531BC4)
+I (osapi\freertos\osapi_thread_freertos.h)(0x675F4D24)
+F (.\osapi_test\test_20_mutex.cpp)(0x67531BC4)()
+F (.\osapi_test\test_21_recursive_mutex.cpp)(0x67531BC4)()
+F (.\osapi_test\test_30_mortal_thread.cpp)(0x67531BC4)()
+F (.\osapi_test\test_osapi.cpp)(0x67531BC4)(-xc++ -std=c++11 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar -fno-exceptions-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/test_osapi.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stddef.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__config)(0x60355C16)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__nullptr)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdint.h)(0x602A8FDA)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (cunit\Headers\CUnit.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\string.h)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\math.h)(0x60355C32)
+I (C:\Keil_v5\ARM\ARMCLANG\include\math.h)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdlib.h)(0x60355C28)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\type_traits)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\cstddef)(0x602A8FCE)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\version)(0x60355C2A)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\limits)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\__undef_macros)(0x602A8FD0)
+I (cunit\Headers\CUError.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\errno.h)(0x602A8FD6)
+I (C:\Keil_v5\ARM\ARMCLANG\include\errno.h)(0x60355C16)
+I (cunit\Headers\TestDB.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\setjmp.h)(0x602A8FD8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\setjmp.h)(0x60355C2A)
+I (cunit\Headers\TestRun.h)(0x67531BC4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\libcxx\stdio.h)(0x602A8FD4)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (cunit\Headers\Basic.h)(0x67531BC4)
+F (.\osapi_test\test_osapi.h)(0x67531BC4)()
+F (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\ARM_Compiler\1.6.3\Source\retarget_io.c)(0x584E7E1E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/retarget_io.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdio.h)(0x60355C34)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\assert.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\rt_sys.h)(0x60355C34)
+I (RTE\_default\RTE_Components.h)(0x67532314)
+F (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c)(0x61112330)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/stm32f4xx_hal.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x61112330)
+I (RTE\Device\STM32F429ZITx\stm32f4xx_hal_conf.h)(0x67531BC4)
+I (RTE\_default\RTE_Components.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x5D0CD2A4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C3AF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C3AF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60355C24)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x61112330)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x61112330)
+F (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c)(0x61112330)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/stm32f4xx_hal_cortex.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x61112330)
+I (RTE\Device\STM32F429ZITx\stm32f4xx_hal_conf.h)(0x67531BC4)
+I (RTE\_default\RTE_Components.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x5D0CD2A4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C3AF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C3AF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60355C24)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x61112330)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x61112330)
+F (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c)(0x61112330)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/stm32f4xx_hal_gpio.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x61112330)
+I (RTE\Device\STM32F429ZITx\stm32f4xx_hal_conf.h)(0x67531BC4)
+I (RTE\_default\RTE_Components.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x5D0CD2A4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C3AF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C3AF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60355C24)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x61112330)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x61112330)
+F (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c)(0x61112330)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/stm32f4xx_hal_pwr.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x61112330)
+I (RTE\Device\STM32F429ZITx\stm32f4xx_hal_conf.h)(0x67531BC4)
+I (RTE\_default\RTE_Components.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x5D0CD2A4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C3AF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C3AF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60355C24)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x61112330)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x61112330)
+F (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c)(0x61112330)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/stm32f4xx_hal_pwr_ex.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x61112330)
+I (RTE\Device\STM32F429ZITx\stm32f4xx_hal_conf.h)(0x67531BC4)
+I (RTE\_default\RTE_Components.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x5D0CD2A4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C3AF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C3AF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60355C24)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x61112330)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x61112330)
+F (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c)(0x61112330)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/stm32f4xx_hal_rcc.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x61112330)
+I (RTE\Device\STM32F429ZITx\stm32f4xx_hal_conf.h)(0x67531BC4)
+I (RTE\_default\RTE_Components.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x5D0CD2A4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C3AF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C3AF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60355C24)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x61112330)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x61112330)
+F (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c)(0x61112330)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/stm32f4xx_hal_rcc_ex.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x61112330)
+I (RTE\Device\STM32F429ZITx\stm32f4xx_hal_conf.h)(0x67531BC4)
+I (RTE\_default\RTE_Components.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x5D0CD2A4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C3AF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C3AF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60355C24)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x61112330)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x61112330)
+F (RTE\Device\STM32F429ZITx\RTE_Device.h)(0x67531BC4)()
+F (RTE\Device\STM32F429ZITx\startup_stm32f429xx.s)(0x67531BC4)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__MICROLIB SETA 1" -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F429xx SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f429xx.o)
+F (RTE\Device\STM32F429ZITx\stm32f4xx_hal_conf.h)(0x67531BC4)()
+F (RTE\Device\STM32F429ZITx\system_stm32f4xx.c)(0x67531BC4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/system_stm32f4xx.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f429xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm4.h)(0x664C3AF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_version.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_compiler.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\cmsis_armclang.h)(0x664C3AF8)
+I (C:\Keil_v5\ARM\ARMCLANG\include\arm_acle.h)(0x60355C24)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\cmsis_armclang_m.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\m-profile\armv7m_mpu.h)(0x664C3AF8)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal.h)(0x61112330)
+I (RTE\Device\STM32F429ZITx\stm32f4xx_hal_conf.h)(0x67531BC4)
+I (RTE\_default\RTE_Components.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_def.h)(0x5D0CD2A4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h)(0x61112330)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_rcc_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_gpio_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_cortex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ex.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_flash_ramfunc.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr.h)(0x61112330)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\STM32F4xx_HAL_Driver\Inc\stm32f4xx_hal_pwr_ex.h)(0x61112330)
+F (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c)(0x61530232)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/freertos_evr.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\semphr.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\event_groups.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\timers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\stream_buffer.h)(0x6182E63C)
+F (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\event_groups.c)(0x6182E63C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/event_groups.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\timers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\event_groups.h)(0x6182E63C)
+F (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\list.c)(0x6182E63C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/list.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+F (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\port.c)(0x6182E63C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/port.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+F (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\MemMang\heap_4.c)(0x6182E63C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/heap_4.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+F (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\queue.c)(0x6182E63C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/queue.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182E63C)
+F (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\tasks.c)(0x6182E63C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/tasks.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\timers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\stack_macros.h)(0x6182E63C)
+F (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\timers.c)(0x6182E63C)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./cunit/Headers -I ./osapi -I ./osapi_test-I./RTE/Device/STM32F429ZITx-I./RTE/RTOS-I./RTE/_default-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F-IC:/Users/ferna/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/CMSIS/Device/ST/STM32F4xx/Include-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/STM32F4xx_DFP/2.16.0/Drivers/STM32F4xx_HAL_Driver/Inc-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F429xx -D_RTE_ -DOSAPI_USE_FREERTOS  -include "Pre_Include_Global.h"-o ./objects/timers.o -MD)
+I (RTE\_default\Pre_Include_Global.h)(0x67532314)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60355C30)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\FreeRTOS.h)(0x6182E63C)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60355C30)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60355C30)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\projdefs.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\portable.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\deprecated_definitions.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\mpu_wrappers.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\task.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\list.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\queue.h)(0x6182E63C)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.4.6\Source\include\timers.h)(0x6182E63C)
+F (RTE\RTOS\FreeRTOSConfig.h)(0x67531BC4)()

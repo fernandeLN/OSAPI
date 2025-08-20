@@ -1,0 +1,215 @@
+#ifndef OSAPI_THREAD_FREERTOS_H
+#define OSAPI_THREAD_FREERTOS_H
+
+#include "osapi_thread_interface.h"
+#include "task.h"
+
+namespace osapi {
+
+/** Thread interface implementation for FreeRTOS. */
+class Thread : public ThreadInterface
+{
+	private : 
+		int priority_thread;
+		int stackSize_thread;
+		Joinable isJoinable_thread;
+		const char* name_thread;
+		bool isRunning_thread;
+		TaskHandle_t taskHandle_thread;
+		SemaphoreHandle_t semaphore_thread;
+	
+    public:
+
+        /** Thread constructor.
+         *  @param[in] priority thread priority
+         *  @param[in] stackSize thread stack size in bytes
+         *  @param[in] isJoinable decides if the thread supports join operation or not
+         *  @param[in] name optional thread name
+         */
+	
+	//			BaseType_t result = xTaskCreate(
+//            [](void* arg) { static_cast<Thread*>(arg)->job(); }, // Task function
+//            name_thread,                                        // Task name
+//            stackSize_thread / sizeof(StackType_t),            // Stack size
+//            this,                                              // Task parameter
+//            priority_thread,                                   // Task priority
+//            &taskHandle_thread                                 // Task handle
+//        );
+		static void threadFunction(void* argument){
+					Thread* osapiThreadObject = reinterpret_cast<Thread*>(argument);
+					if (osapiThreadObject){
+						osapiThreadObject->job();
+						//osapiThreadObject->taskHandle_thread = NULL; // zeby wyczyscic uchwyt przed wyslaniem sygnalu o zakonczeniu
+						if(osapiThreadObject->semaphore_thread != NULL)
+							xSemaphoreGive(osapiThreadObject->semaphore_thread);
+					}					
+					vTaskDelete(NULL);
+					
+				}
+		
+		Thread(int priority, unsigned int stackSize, Joinable isJoinable, const char* name = "unnamed") {
+            // TODO
+					 //done up there
+							priority_thread = priority; 
+							stackSize_thread = stackSize; 
+							isJoinable_thread = isJoinable; 
+							name_thread = name;
+							taskHandle_thread = NULL; 
+			
+							if(isJoinable_thread == JOINABLE)
+									semaphore_thread = xSemaphoreCreateBinary();
+							else
+									semaphore_thread = NULL;
+        }
+        
+
+        /** Virtual destructor required to properly destroy derived class objects. */
+        virtual ~Thread() { 
+						if(semaphore_thread != NULL){
+									vSemaphoreDelete(semaphore_thread);
+					}
+				
+				}
+
+        /** Runs the thread.
+        *  @retval true if the thread was started successfully, 
+        *  @retval false if the thread was not started successfully, or the thread was already running
+        */
+        virtual bool run() {
+            // TODO
+									if(taskHandle_thread == NULL){
+											if(xTaskCreate(threadFunction, name_thread, stackSize_thread, this, priority_thread, &taskHandle_thread) == pdPASS)
+													return true;
+											else
+													return false;
+												}
+											//return false;
+			
+			
+			
+
+			
+			return false;
+        }
+
+        /** Checks if the thread is running.
+        *  @retval true if the thread is running
+        *  @retval false if the thread is not running
+        */
+        virtual bool isRunning() {
+            // TODO
+            if (taskHandle_thread != NULL){
+				return true;			
+			}
+			else {
+				return false;
+			}
+        }
+
+        /** Waits for the thread to finish executing, with a given timeout.
+         *  @param timeout[in] number of milliseconds to wait for the thread to finish executing
+         *  @retval true if the thread was successfully joined in the given time
+         *  @retval false if the thread was not joined within the given time or the thread is not joinable at all
+         */
+        virtual bool join(unsigned int timeout) {
+            // TODO
+			if (xSemaphoreTake(semaphore_thread, timeout) == pdTRUE) {
+				taskHandle_thread = NULL;
+				return true;
+			}
+			else {
+				return false;
+			}
+            
+        }
+
+        /** Checks, if the thread is joinable.
+         *  @retval true if the thread is joinable
+         *  @retval false if the thread is not joinable
+         */
+        virtual bool isJoinable() {
+            // TODO
+            return false;
+        }
+
+        /** Suspends thread execution.
+         *  @retval true if the thread was suspended successfully
+         *  @retval false if the thread was not suspended for some reason
+         */
+        virtual bool suspend() {
+            // TODO
+            return false;
+        }
+
+        /** Resumes thread execution.
+         *  @retval true if the thread was resumed successfully
+         *  @retval false if the thread was not resumed for some reason
+         */
+        virtual bool resume() {
+            // TODO
+            return false;
+        }
+
+        /** Sets thread priority
+         *  @param[in] priority new thread priority
+         *  @retval true if the priority for the thread was set successfully
+         *  @retval false if the priority for the thread was not set successfully for some reason
+         */
+        virtual bool setPriority(int priority) {
+            // TODO
+            return false;
+        }
+
+        /** Gets the thread priority
+         *  @return current thread priority
+         */
+        virtual int getPriority() {
+            // TODO
+            //return -1;
+			return priority_thread;
+        }
+
+        /** Gets thread name
+         *  @return name of the thread
+         */
+        virtual const char* getName() {
+            // TODO
+            //return nullptr;
+			return name_thread;
+        }
+
+        /** Gets the current state of the thread
+         *  @return current state of the thread
+         */
+        virtual ThreadState getState() {
+            return UNKNOWN;
+        }               
+
+        /** Gets the total size of the stack assigned for this thread
+         *  @return total stack size in number of bytes
+         */
+        virtual unsigned int getTotalStackSize() {
+            return 0;
+        }
+
+        /** Gets the size of the used stack for this thread
+         *  @return number of bytes used on the stack
+         */
+        virtual unsigned int getUsedStackSize() {
+            return 0;
+        }
+
+    protected:
+
+        /** Delays thread execution for a given time.
+         *  @param time[in] number of milliseconds to delay thread execution
+         */
+        virtual void sleep(unsigned int time) {
+            // TODO
+        }
+
+};
+
+} // namespace osapi
+
+#endif // OSAPI_THREAD_FREERTOS_H

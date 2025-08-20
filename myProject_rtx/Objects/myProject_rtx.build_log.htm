@@ -1,0 +1,95 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Fernande Loueke AGH University of Technology Flex license: MDK Professional 5.36 (Flex) (mdk_pro) Operation stops: 8 Aug 2026
+ 
+Tool Versions:
+Toolchain:       MDK Professional 5.36 (Flex)  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      UL2CM3.DLL V1.164.0.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\Semestr II\OSFES\404719_1\myProject_rtx\myProject_rtx.uvprojx
+Project File Date:  01/28/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+*** Warning: You are compiling one or more files of source type C++ and have selected 'use MicroLIB'. MicroLIB does not support C++!
+  
+Build target 'default'
+Error instantiating RTE components
+Error #540: 'ARM::CMSIS:RTOS2:Keil RTX5:Source:5.5.3' component is not available for target 'default', pack 'ARM.CMSIS.5.8.0' is not selected
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM.CMSIS.6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: OS Tick Version: 1.0.1
+   * Component: RTOS2 Version: 2.3.0
+   * Component: CORE Version: 6.1.0
+   * Component: SysTick Version: 1.0.5
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.ARM_Compiler.1.6.3.pack
+                Keil.ARM_Compiler.1.6.3
+                Keil ARM Compiler extensions for ARM Compiler 5 and ARM Compiler 6
+   * Component: STDOUT Variant: ITM Version: 1.2.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.16.0.pack
+                Keil.STM32F4xx_DFP.2.16.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 2.6.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\CMSIS
+  .\RTE\_default
+  C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include
+  C:\Users\ferna\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\RTOS2\Include
+  C:\Users\ferna\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:OS Tick:1.0.1 (API)
+      Include file:  CMSIS\RTOS2\Include\os_tick.h
+
+   * Component: ::CMSIS:RTOS2:2.3.0 (API)
+
+   * Component: ARM::CMSIS:CORE:6.1.0
+
+   * Component: ARM::CMSIS:OS Tick:SysTick:1.0.5
+      Source file:   CMSIS\RTOS2\Source\os_systick.c
+
+   * Component: Keil.ARM Compiler::Compiler:I/O:STDOUT:ITM:1.2.0
+      Source file:   Source\retarget_io.c
+
+   * Component: Keil::Device:Startup:2.6.3
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\arm\startup_stm32f429xx.s
+      Source file:   MDK\Device\Source\ARM\STM32F4xx_OTP.s
+      Include file:  Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
+      Source file:   MDK\Device\Source\ARM\STM32F42xxx_43xxx_OPT.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F4xx\Source\Templates\system_stm32f4xx.c
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
